@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f0f0;
+}
+
+.main-container {
+  display: flex;
+  width: 100%; 
+  height: 100vh; 
+  position: absolute;
+  
+}
+
+.left-top {
+  flex: 0 0 20%; 
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Ensures proper alignment for content */
+  justify-content: center;
+  align-items: center;
+  margin-top: 0; /* Adjusted margin */
+}
+
+.middle-Body {
+  margin-left: 10%;
+  margin-top: 5vh;
+  width: 55%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-self: unset;
+  border: 2px solid gray; 
+  border-radius: 10px;       
+  padding: 25px;             
+  width: 100%;             
+  height: auto;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.container img {
+  width: 150px;  
+  height: auto;  
+  object-fit: cover; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin-left: 10px; /* Adjusted margin */
+}
+
+.middle-top h3 {
+  margin-bottom: 3.5vh;
+  font-size: 35px;
+}
+
+.color-Change {
+  color: rgb(255, 145, 0);
+}
+
+.middle-top p {
+  margin-bottom: 3.5vh;
+  font-size: 12px;
+  color: rgb(125, 124, 124);
+}
+
+.btn {
+  padding: 1.5vh;
+  padding-right: 6vh;
+  border: solid black 1px;
+  border-radius: 3px;
+  background-color: rgb(255, 145, 0);
+  cursor: pointer;
+}
+
+.Middle-Middle {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.Middle-Middle h3 {
+  margin-bottom: 3.5vh;
+  font-size: 25px;
+}
+
+#para1,
+#para2 {
+  font-size: 12px;
+  color: rgb(125, 124, 124);
+}
+
+.newpage {
+  width: 100%;
+  height: 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: auto; /* Auto rows */
+  gap: 10vh; 
+  text-align: center; /* Center-aligns content inside the box */
+  padding: 20px; /* Adds space around the content */
+  max-width: 600px; /* Optional: set a maximum width for the box */
+  margin: 0 auto; /* Centers the box in the viewport */
+  border: 2px solid #ccc; /* Optional: adds a border around the box */
+  border-radius: 10px; /* Optional: rounds the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  margin-top: 15vh;
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img {
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  margin-bottom: 15px; 
+  border-radius: 5px; 
+  left: 2vh;
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p {
+  font-size: 11px;
+  margin-top: 1vh;
+  position: relative;
+  left: 2vh;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3,
+.card4 h3,
+.card5 h3 {
+  position: relative;
+  font-size: 15px;
+  margin-top: 2vh;
+  left: 3vh;
+}
+
+.card6 p {
+  position: relative;
+  font-size: 11px;
+  margin-top: 2vh;
+  left: 2vh;
+}
+
+.card6 h3 {
+  font-size: 15px;
+  margin-top: 5vh;
+  margin-left: 3vh;
+}
+
+.card6 a {
+  font-size: 12px;
+  color: rgb(255, 145, 0);
+  position: relative; 
+  left: 2vh;
+}
+
+
+  .left-top{
+    position: relative;
+    top: 48vh;
+    padding: 2vh;
+    height:100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+
+.left-top img{
+  height: 40vh;
+  width: 20vw;
+  border-radius: 50%;
+  object-fit: fill;
+  margin-bottom:2vh ;
+}
+
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh; /* Ensures proper spacing */
+  padding: 2vh 2vw;
+}
+
+.icons img {
+  height: 5vh;
+  width: 3vw;
+}
+
+.straight-line1{
+  width: 100%;
+  height: 1vh;
+  background-color: gray;
+  opacity: 0.1;
+  border-radius: 1rem;
+}
+
+.p-info{
+  margin-top: 2vh;
+  position: relative;
+  right: 5vh;
+  margin-bottom: 2vh;
+}
+
+
+.age-in-age{
+  position: relative;
+  left: 9vw;
+}
+
+
+.text-in-text{
+  position: relative;
+  left: 9vh;
+}
+
+
+.available-in-freelance{
+  position: relative;
+  left: 10vh;
+  color: rgb(52, 157, 52);
+}
+
+.add{
+  position: relative;
+  left: 12vh;
+}
+
+
+.languages{
+  margin-top: 2vh;
+  position: relative;
+  right: 10vh;
+  display:flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.straight-line-english{
+  position: absolute;
+  width:35vh;
+  height: 1vh;
+  background-color: rgb(255, 145, 0);
+  margin-top: .9vh;
+}
+
+
+.skills{
+  position: relative;
+  top: 5.5vh;
+  right: 15vh;
+  display:flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.extra-skills{
+  position: relative;
+  top: 10vh;
+  right: 13vh;
+  display:flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.download {
+  position: relative;
+  top: 20vh;
+}
+
+.download button{
+  padding: 2vh;
+  background-color: rgb(255, 145, 0);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 145, 0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */  
+}
